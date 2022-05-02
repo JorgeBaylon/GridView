@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:baylon/gridviewarticulo.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(FarmaciaApp());
 } // Funcion Principal
 
-class MyApp extends StatelessWidget {
+class FarmaciaApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -14,6 +14,6 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.green,
         ),
-        home: MyHomePage());
+        home: PaginaInicial());
   }
 } // Widgets SIN Estado
